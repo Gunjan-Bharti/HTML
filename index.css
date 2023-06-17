@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    background-color: #f9f4f4;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 12vh;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    
+    /* height: 20vh; */
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+   /* justify-content: space-between; */
+}
+#main-content-item{
+    display: flex;
+    flex-direction: column;
+    
+}
+/* section ul > li{
+    justify-content: space-between;
+} */
+
+#header-content{
+    display: flex;
+    list-style: none;
+    line-height: 200%;
+    background-color: #4caf50;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+#header-content  > li{
+    flex-direction: row;
+    
+}
+button{
+    border: #300D00;
+    background-color: #461200;
+    color: white;
+}
+
+.latest-Tutorials-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.latest-Tutorials-list div{
+    /* height: 100px;
+    width: 100px; */
+    border: 1px solid transparent;
+    flex-wrap: wrap;
+    /* height: 20px; */
+   
+}
+
+/*Doubt */
+#testdiv{
+    display: inline-block;
+    align-items: center;
+}
+
+
+/* input{
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 25vw; 
+    margin: 10px;
+    padding-top: 10px;
+    width: 25vw
+} */
+
+footer{
+    background-color: #3b753d;
+    color:white;
+    line-height: 500%;
+    text-align: center;
+}
